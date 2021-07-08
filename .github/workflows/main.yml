@@ -27,12 +27,12 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Install dependencies
-      - uses: borales/actions-yarn@v2.3.0
+        uses: borales/actions-yarn@v2.3.0
         with:
           cmd: install # will run `yarn install` command
 
       # Runs a set of commands using the runners shell
       - name: Run TypeScript compiler
-      - uses: borales/actions-yarn@v2.3.0
+        uses: borales/actions-yarn@v2.3.0
         with:
           cmd: build # will run `yarn build` command
