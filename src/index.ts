@@ -11,7 +11,7 @@ const io: Server = require('socket.io')(server, {
   },
 });
 
-const port = 42069;
+const port = process.env.PORT || 42069;
 
 app.use(cors());
 
